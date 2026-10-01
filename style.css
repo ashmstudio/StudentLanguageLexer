@@ -436,9 +436,9 @@ body {
   height: 29px;
   flex: 0 0 29px;
   place-items: center;
-  border: 1px solid #214b37;
-  background: #214b37;
-  color: #fffefa;
+  border: 1px solid #242520;
+  background: #242520;
+  color: #f4f0e6;
   font-family: "Segoe UI", Arial, sans-serif;
   font-size: 12px;
   font-weight: 700;
@@ -469,6 +469,7 @@ body {
 main { flex: 1; }
 
 .page-footer {
+  display: block;
   width: 100%;
   padding: 14px 20px 16px;
   border-top: 1px solid #dfe4d9;
