@@ -409,3 +409,76 @@ textarea:focus { border-color: #648b70; box-shadow: 0 0 0 2px rgba(74, 121, 87, 
   textarea { min-height: 135px; font-size: 11px; }
   .token-table-wrap { max-height: 390px; }
 }
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #f7f6ef;
+  color: #24392d;
+}
+
+.masthead {
+  height: 44px;
+  border-top: 3px solid #214b37;
+  background: #fffefa;
+  color: #24392d;
+}
+
+.masthead-inner {
+  justify-content: flex-start;
+  gap: 9px;
+}
+
+.brand-mark {
+  display: grid;
+  width: 29px;
+  height: 29px;
+  flex: 0 0 29px;
+  place-items: center;
+  border: 1px solid #214b37;
+  background: #214b37;
+  color: #fffefa;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.brand-name {
+  color: #344a3a;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.intro h1 {
+  color: #214b37;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.25;
+}
+
+.intro-copy { color: #667267; }
+.workbench, .reference-details { background: #fffefa; }
+.button-primary { background: #28563d; }
+.button-primary:hover { background: #1f4732; }
+.status-badge[data-state="valid"] { border-color: #c6d5c1; background: #edf3e9; color: #28563d; }
+.data-table th { background: #f0f2e8; color: #435a48; }
+
+main { flex: 1; }
+
+.page-footer {
+  width: 100%;
+  padding: 14px 20px 16px;
+  border-top: 1px solid #dfe4d9;
+  color: #53644f;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .intro h1 { font-size: 27px; }
+}
